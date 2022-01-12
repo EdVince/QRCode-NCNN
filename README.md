@@ -17,9 +17,13 @@ vector<string> res = detector->detectAndDecode(img, points);
 ```
 2. 工程小：
 detect模型+sr模型加起来只有960KB，即便是直接编译到工程里面也非常小
+#### 效果
+![image](./resources/Screenshot.jpg)
+说明：手机是红米7，骁龙632（超级典型的百元机），代码是实时一直检测和解码的所以用起来可能会觉得比较卡，设备好的话应该不会卡，而且实际使用都是one-shot的，应该没人跑实时的吧。
+该APP已导出debug版本，[here](./Project_android/com.tencent.nanodetncnn-debug.apk)
 #### 工作内容
  - [x] x86平台的工作
- - [ ] android平台的工作
+ - [x] android平台的工作
 #### 声明
 1. 原始的推理引擎属于腾讯微信AI团队在OpenCV上的开源
 2. 本人所作工作仅仅是将推理的引擎从caffe换到了ncnn
