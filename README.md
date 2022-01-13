@@ -1,5 +1,9 @@
 ### WeChat-QRCode-NCNN
-微信AI团队推出的二维码引擎，原工作采用caffe，开源于OpenCV
+WeCharQRCode是微信AI团队推出的二维码引擎，但原工作采用caffe，开源于OpenCV
+
+（！！！这个原始引擎不是我做的，我只是移植而已！！！）
+
+本人是ncnn狂热爱好者，看不得腾讯家的东西被caffe ntr了，因此把它弄到ncnn上，正本清源。
 
 公众号介绍：[传送门](https://mp.weixin.qq.com/s/AknsKNqVmvr8aohV25_ZcQ)
 
