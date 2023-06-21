@@ -59,7 +59,7 @@ int SuperScale::superResoutionScale(const Mat &src, Mat &dst) {
     ncnn::Mat prob;
     ex.extract("fc", prob);
 
-    dst = Mat(prob.w, prob.h, CV_8UC1);
+    dst = Mat(prob.h, prob.w, CV_8UC1);
 
     int cnt = 0;
     for (int row = 0; row < prob.h; row++) {
